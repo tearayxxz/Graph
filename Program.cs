@@ -35,7 +35,7 @@ namespace ConsoleApp12
                     }
                     else if (t2 >= 0)
                     {
-                        t2 = (7.00 / 10) + 1;
+                        t2 = Math.Sqrt(p2) + 1;
                         Console.Write("{0} , ", t2);
                         Console.Write("{0}", p2);
                     }
